@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ProductsPage extends LoginPage{
+public class ProductsPage extends LoginPage {
     public ProductsPage(){
         PageFactory.initElements(Driver.get(), this);
     }
-    @FindBy (id = "add-to-cart-sauce-labs-backpack")
+    @FindBy (xpath= "//div[@class='inventory_list']//div[1]//div[3]//button[1]")
     public WebElement backpack;
 
     @FindBy (id = "add-to-cart-sauce-labs-bike-light")

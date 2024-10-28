@@ -2,7 +2,7 @@
   Feature: Item purchase
 
     Scenario: Successful item purchase
-      Given user is looged in on "Products" page
+      Given user is logged in  on "Products" page
       When user adds "backpack" to the cart
       And user clicks on "Cart"
       Then user sees the "right price" for the "item"

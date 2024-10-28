@@ -19,6 +19,6 @@ public class YourInformationPage {
     @FindBy(id = "postal-code")
     public WebElement postcode;
 
-    @FindBy(id = "continue")
+    @FindBy(xpath = "//input[@value='CONTINUE']")
     public WebElement continueButton;
 }

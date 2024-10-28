@@ -1,4 +1,4 @@
-package com.Company.step_definitions;
+package com.Company.stepDefs;
 
 import com.Company.utilities.Driver;
 import io.cucumber.java.After;

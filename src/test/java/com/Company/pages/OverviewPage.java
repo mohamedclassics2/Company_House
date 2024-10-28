@@ -10,6 +10,6 @@ public class OverviewPage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-    @FindBy(id = "finish")
+    @FindBy(xpath = "//a[@class='btn_action cart_button']")
     public WebElement finish;
 }

@@ -1,7 +1,7 @@
 @regression @login
 Feature: Login page
 
-
+@wip
   Scenario: Successful login
     Given user is on login page
     When user enters valid username and valid password
